@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+    <style>
+        .mytable{
+            background-color: cornflowerblue;
+            margin-top:80px 
+        }
+        .textBox
+        {
+            height : 10px;
+            width: 168px;
+            border-radius: 20px;
+            padding: 5px;
+        }
+        .textBoxHighlighter
+        {
+            background-color: rgb(237, 233, 13);
+        }
+    </style>
+</head>
+<body>
+    <!--This is comment-->
+    <table border="1px" align="center" class="mytable" >
+        <tr>
+            <td>
+                <img src="images/UOK Logo.png" width="150px" height="150px"/>
+            </td>
+            <td>
+                <h1>Student Registration</h1>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Name :
+            </td>
+            <td>
+                <input type="text" class="textBox" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Father Name :
+            </td>
+            <td>
+                <input type="text" class="textBox" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Phone Number :
+            </td>
+            <td>
+                <input type="text" class="textBox textBoxHighlighter" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Roll Number :
+            </td>
+            <td>
+                <input type="text"  class="textBox" style="width: 50px;"/>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                City :
+            </td>
+            <td>
+                <select>
+                    <option>----------Select City---------</option>
+                    <option>Kotli</option>
+                    <option>MZD</option>
+                    <option>ISB</option>
+                    <option>LHR</option>
+                    <option>KHI</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Address:
+            </td>
+            <td>
+                <textarea></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Are You a Student :
+            </td>
+            <td>
+                <input type="checkbox" > Yes I am
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center">
+                <input type="submit" value="Register Student" style="width: 120px; height: 30px; background-color:greenyellow; border-top-left-radius: 5px; border-bottom-right-radius: 5px;">
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
